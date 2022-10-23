@@ -6,16 +6,25 @@
     <meta name="keywords" content="Ispit" />
     <meta name="author" content="Romeo Luter" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>"Avanturist"</title>
+    <title>"Parcijalni ispit"</title>
+<style>
+
+</style>
+<link rel="stylesheet" href="./css.css/style.css">
   </head>
-  <body>
-    <header id="header">
+  
+  <body style="text-align: center">
+    
 
 
     <header>
-      <h1>"Autoprijevoz Kljajić"</h1>
-      <nav>
-        <li><a href="https://autoprijevoz-kljajic.hr/o-nama/#">O nama</a></li>
+      
+
+    
+     <h1>"Autoprijevoz Kljajić"</h1>
+      <nav style="text-align: center">
+        <li id="id">
+          <a href="https://autoprijevoz-kljajic.hr/o-nama/#">O nama</a></li>
         <br />
         
         <li>
@@ -29,11 +38,12 @@
       </nav>
     </header>
     <hr>
-    <main>
+    <main style="display: inline-block; width: 70%">
       <h1>"Kljajić"</h1>
       <article>
         <h3>O nama</h3>
-        <p>
+        <div class="intro">
+        <p proba="selektor">
           Društvo Autoprijevoznik Kljajić d.o.o. osnovano je 1992. kao mala obiteljska kompanija. Od osnivanja kompanije do danas zabilježen je kontinuirani rast kompanije u svim segmentima.
 Fokus kompanije je na prijevozu nafte i naftnih derivata što uspješno radimo preko 25 godina na zadovoljstvo naših kupaca na benzinskim postajama diljem Republike Hrvatske. Brojnost našeg voznog parka kao i njegova prosječna starost s pravom nam omogućavaju da kažemo da smo jedna od vodećih kompanija u svom segmentu na području srednje i jugoistočne Europe.
 
@@ -46,9 +56,10 @@ Naša posvećenost poboljšanju kvalitete usluga smatramo da se najbolje ogleda 
 U okviru konstantne edukacije naših zaposlenika participiramo u programu Scania Driver Training čiji je cilj optimizacija kvalitete vožnje uz istovremnu zaštitu okoliša.
 Vezano uz zaštitu okoliša, zdravstvene standarde te procedure poslovanja napominjemo da smo u posjedu svih relevantnih certifikata od koji izdvajamo ISO 9001:2015, ISO 14001:2015, BS OHSAS 18001:2007.
         </p>
-        <img src="./slike/multimedia/images/stvari/adventure.jpg" />
+      </div>
+        <img src="./slike/multimedia/images/stvari/adventure.jpg" title="flower" width="250" height="250"/>
         <h1>Naše djelatnosti</h1>
-        <p>
+        <p class="test">
           Prijevoz ADR tereta je naša ključna djelatnost koju obavljamo sa svojim educiranim osobljem kao i vozilima zadnje generacije.
 Moguć je prijevoz različitih vrsta goriva u autocisternama s do pet komora, a bitno je napomenuti da autocisterne kao i vučna vozila imaju najsuvremeniju mjernu opremu Alfons Haar kao i sustav praćenja vozila u realnom vremenu.
         </p>
@@ -57,14 +68,19 @@ Moguć je prijevoz različitih vrsta goriva u autocisternama s do pet komora, a 
       </article>
       <br>
       <article id="onama">
+        <div>
+          <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis qui
         ut nihil ipsam sed, delectus autem numquam! Inventore aliquid quia,
         dicta officia beatae earum deserunt autem consequatur aliquam optio
         nobis! Lorem ipsum dolor sit amet consectetur adipisicing elit. A sint
         in quo odio, consectetur aliquid vitae odit, sed amet veritatis,
         deserunt ipsa hic assumenda minima officiis voluptatem architecto veniam
-        at. <br />
-        <img src="./slike/multimedia/images/ljudi/grupe-ljudi/team.jpg" alt="timski rad" />
+        at.
+      </p>
+    </div>
+     <br />
+        <img src="./slike/multimedia/images/ljudi/grupe-ljudi/team.jpg" alt="onama" />
       </article>
       <br>
       <article id="našedjelatnosti">
@@ -78,7 +94,7 @@ Moguć je prijevoz različitih vrsta goriva u autocisternama s do pet komora, a 
         <br />
         <img src="./slike/multimedia/images/priroda/sume/branches-bright-colors.jpg" alt="ilustracija" />
         <h1>Kontakt</h1>
-        <p>
+        <p id="para1">
           AUTOPRIJEVOZ KLJAJIĆ
 
           Ježdovečka 118b
@@ -91,6 +107,7 @@ Moguć je prijevoz različitih vrsta goriva u autocisternama s do pet komora, a 
           
           Tel:  +385 1 6560 310
         </p>
+        <form action="t">
         <label for="ime">Ime i Prezime:</label><br />
         <input
           id="ime"
@@ -122,6 +139,7 @@ Moguć je prijevoz različitih vrsta goriva u autocisternama s do pet komora, a 
           required=""
           maxlength="999"
         ></textarea
+      </form>
         ><br />
         <input name="reset_btn" type="reset" value="Pošalji poruku" />
       </article>
@@ -134,7 +152,7 @@ Moguć je prijevoz različitih vrsta goriva u autocisternama s do pet komora, a 
           
           
 <br>
-        <a href="#header">Back To Top Button</a> 
+        <a href="#">Back To Top Button</a> 
         <p>&copy; 2015 RapidTables.com</p>
       
     </footer>
