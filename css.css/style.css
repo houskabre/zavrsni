@@ -48,7 +48,7 @@ font-weight: bold;
 
   [title~=flower] {
     border: 5px solid rgb(32, 32, 5);
-
+  }
     article, img {
         display: block;
    margin: auto;
