@@ -1,60 +1,79 @@
 * {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    transition: all 0.3s;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    scroll-behavior: smooth;
-  }
-  .header {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0px 3px 20px #e30b0b;
-  }
-  .intro {
-    background-color: yellow;
-  }
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 3px 20px #e30b0b;
+}
+.intro {
+  background-color: yellow;
+}
 
-  h1{
-    color: brown;
-  }
+h1 {
+  color: brown;
+}
 
-  [href]{
-    font-style: italic;
-  }
+[href] {
+  font-style: italic;
+}
 
-  #li {
-    color: #0fc934;
-font-size: 24px;
-font-weight: bold;
-  }
+#li {
+  color: #0fc934;
+  font-size: 24px;
+  font-weight: bold;
+}
 
-  [proba=selektor]{
-    border-radius: 5%;
-    overflow: hidden;
-  }
+[proba="selektor"] {
+  border-radius: 5%;
+  overflow: hidden;
+}
 
-  [class^="test"] {
-    background: #8e79e9;
-  }
+[class^="test"] {
+  background: #8e79e9;
+}
 
+#para1 {
+  text-align: center;
+  color: rgb(0, 157, 255);
+}
 
-  #para1 {
-    text-align: center;
-    color: rgb(0, 157, 255);
-  }
+[title~="flower"] {
+  border: 5px solid rgb(32, 32, 5);
+}
+article,
+img {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
 
-  [title~=flower] {
-    border: 5px solid rgb(32, 32, 5);
-  }
-    article, img {
-        display: block;
-   margin: auto;
-   text-align: center;
-    }
+div + p {
+  background-color: rgb(115, 25, 156);
+}
 
-    div + p {
-        background-color: rgb(115, 25, 156);
-      }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(9, 143, 63, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
